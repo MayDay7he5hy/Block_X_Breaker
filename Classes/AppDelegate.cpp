@@ -130,6 +130,6 @@ void AppDelegate::applicationWillEnterForeground() {
     Director::getInstance()->startAnimation();
 
 #if USE_AUDIO_ENGINE
-    AudioEngine::resumeAll();//测试更新
+    AudioEngine::resumeAll();
 #endif
 }
